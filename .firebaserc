@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "tutum-4c58c": {
+      "hosting": {
+        "tutumadmin": [
+          "tutum-4c58c"
+        ]
+      }
+    }
+  }
+}

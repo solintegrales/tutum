@@ -123,9 +123,16 @@
               "devServerTarget": "tutumadmin:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "tutumadmin"
+  "defaultProject": "tutumadmin",
+  "cli": {
+    "analytics": "fc61538b-65c9-462c-becc-bfedfde34934"
+  }
 }

@@ -1,0 +1,72 @@
+<!-- Main Sidebar Container -->
+<aside class="main-sidebar elevation-4" style="background-color: black;">
+    <!-- Brand Logo -->
+    <a [routerLink]="['/principal']" class="brand-link">
+        <img src="assets/img/logo.png" width="70%" alt="">
+    </a>
+  
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <!-- Sidebar user panel (optional) -->
+  
+        <!-- Sidebar Menu -->
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                <!-- Add icons to the links using the .nav-icon class
+                 with font-awesome or any other icon font library -->
+                <li class="nav-header">MENU PRINCIPAL</li>
+                
+                <li class="nav-item">
+                    <a [routerLink]="['/categoria']"  class="nav-link">
+                        <i class="nav-icon fas fa-certificate"></i>
+                        <p>Categorías</p>
+                    </a>
+                </li>
+                
+                <!-- ------------ -->
+                <li class="nav-item">
+                    <a [routerLink]="['/cotizacion']"  class="nav-link">
+                        <i class="nav-icon fas fa-file-alt"></i>
+                        <p>Cotizaciones</p>
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a [routerLink]="['/proveedor']"  class="nav-link">
+                        <i class="nav-icon fas fa-hands-helping"></i>
+                        <p>Proveedores</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a [routerLink]="['/solicitud']"  class="nav-link">
+                        <i class="nav-icon fas fa-mail-bulk"></i>
+                        <p>Solicitudes</p>
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a [routerLink]="['/usuario']"  class="nav-link">
+                        <i class="nav-icon fas fa-users"></i>
+                        <p>Usuarios</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a [routerLink]="['/ayuda']"  class="nav-link">
+                        <i class="nav-icon fas fa-book"></i>
+                        <p>Ayuda</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a [routerLink]="['/acerca']"  class="nav-link">
+                        <i class="nav-icon fas fa-circle"></i>
+                        <p>Acerca de</p>
+                    </a>
+                </li>
+  
+  
+            </ul>
+        </nav>
+        <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
